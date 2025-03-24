@@ -199,7 +199,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Add sample file if list is empty and syllabusItems exists
         if (syllabusItems && syllabusItems.children.length === 0) {
             const sampleFile = {
-                name: "Company Profile Presentation.PDF",
+                name: "syllabus.PDF",
                 size: 214 * 1024 // 214 KB
             };
             addFileToList(sampleFile);
